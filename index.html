@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header class="">
+      <!-- navbar section start -->
+      <nav
+        class="w-[96%] mx-auto md:w-[71%] flex items-center justify-between mt-4 mb-4"
+      >
+        <div class="font-bold text-3xl md:text-4xl lg:text-5xl">
+          <span>Tech</span><span class="gradient-color">Wave</span>
+        </div>
+        <div class="hidden lg:block">
+          <ul class="flex gap-8">
+            <a class="animation-btn py-1 px-3" href="#about"><li>About</li></a>
+            <a class="animation-btn py-1 px-3" href="#episodes"
+              ><li>Episodes</li></a
+            >
+            <a class="animation-btn py-1 px-3" href="#host"><li>Host</li></a>
+          </ul>
+        </div>
+        <button class="hidden gradient-btn md:block">
+          Subscribe <i class="fa-solid fa-arrow-right-long"></i>
+        </button>
+
+        <div class="md:hidden">
+          <div class="animation-btn p-2">
+            <img w-[100%] src="./assets/hamburger-menu.png" alt="menu" />
+          </div>
+        </div>
+      </nav>
+
+      <!-- nav section end -->
+
+      <!-- banner section start -->
+      <div
+        class="relative banner-bg-img bor lg:min-h-[800px] flex items-center justify-center mt-16 mb-3 md:mt-0"
+      >
+        <div
+          class="w-[96%] mx-auto md:w-[71%] flex flex-col items-center justify-center md:py-11 text-center gap-6"
+        >
+          <p
+            class="absolute z-10 right-[20%] top-[0%] md:right-[39%] md:top-[6%] lg:right-[40%] lg:top-[15%] bg-[#00FF88] py-1 px-3 lg:py-2 lg:px-5 text-black rounded-full font-bold text-[14px] lg:text-[18px] shadow-[0_0_15px_#00FF88]"
+          >
+            NEW
+          </p>
+          <div
+            class="animation relative bottom-5 flex items-center justify-center"
+          >
+            <img
+              class="w-[170px] h-[170px] md:w-[200px] md:h-[200px] lg:w-[410px] lg:h-[410px]"
+              src="./assets/hero-circle.png"
+              alt=""
+            />
+            <img
+              class="w-[60px] h-[92px] md:w-[70px] md:h-[120px] lg:w-[170px] lg:h-[270px] absolute"
+              src="./assets/microphone.png"
+              alt=""
+            />
+          </div>
+
+          <div class="flex flex-col gap-6 bottom-12">
+            <div>
+              <h1 class="text-3xl md:text-4xl lg:text-6xl font-bold">
+                TeachWave
+              </h1>
+              <p class="opacity text-sm md:text-lg">
+                Your daily dose of tech insights, productivity hacks, and
+                personal growth
+              </p>
+            </div>
+            <!-- banner buttons -->
+            <div class="flex gap-1 md:gap-2 justify-center items-center">
+              <button
+                class="gradient-bg p-1 px-2 rounded-full md:py-3 md:px-4 cursor-pointer"
+              >
+                <i class="fa-brands fa-spotify"></i> Listen on Spotify
+              </button>
+              <button
+                class="animation-btn font-semibold text-[#00FF88] p-1 px-2 md:py-3 md:px-4 rounded-full cursor-pointer"
+              >
+                <i class="fa-regular fa-envelope"></i> Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- banner section end -->
+
+    
+
+  </body>
+</html>
